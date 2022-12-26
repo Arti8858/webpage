@@ -1,0 +1,86 @@
+/* Goolge Fronts */
+import url ('https://fonts.googleapis.com/css2?')
+/* ===== Global ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+   text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.active {
+    color: #fc036b;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+/* navbar */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flax;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+
+}
+,.nav-links li {
+    margin: 0 30px;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffree-backgrounds-photos%2Ftravel&psig=AOvVaw3I9DBhXO0LCvDLiGTQGJMV&ust=1672088390271000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCNi23bzAl_wCFQAAAAAdAAAAABAD');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+}
+.header-content {
+  margin-bottom: 150px;
+  color: whitesmoke;
+  text-align: center;  
+}
+.header-content h2 {
+    font-size: 4vmin;  
+}
+.line {
+    width: 150px;
+    height: 4px;
+    background: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn {
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.menu-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    
+}
